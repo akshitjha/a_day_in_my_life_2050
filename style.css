@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 500px;
 }
 
 header {
@@ -24,7 +23,6 @@ header p {
 }
 
 header p:hover {
-    /* color: black; */
     background-color: rgb(98, 98, 229);
     cursor: pointer;
 }
@@ -36,7 +34,6 @@ header p:hover {
   background-size: cover;
   height: 100vh;
   background-position: center;
-  /* margin-top: -1.5rem; */
   background-attachment: fixed;
 }
 
@@ -55,3 +52,5 @@ header p:hover {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+/* My Day 2050 */
