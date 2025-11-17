@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +10,148 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
       rel="stylesheet" />
     <title>My Day 2050</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins";
+      }
+
+      header {
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 7rem;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        gap: 4rem;
+        z-index: 9999;
+      }
+
+      header p {
+        transition: all 0.3s ease-in-out;
+      }
+
+      header p:hover {
+        background-color: rgb(98, 98, 229);
+        cursor: pointer;
+      }
+
+      .my-day-2050 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+          ),
+          url("https://images.unsplash.com/photo-1520724807848-3ff34d6a3bba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 10rem;
+      }
+
+      .main-head {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-head h1 {
+        margin-top: 10rem;
+        background: linear-gradient(90deg, #0a8097, #a75c9d);
+        background-clip: text;
+        color: transparent;
+      }
+
+      .main-head p {
+        font-size: 1.1rem;
+        text-align: center;
+        width: 70rem;
+        color: white;
+      }
+
+      .card {
+        color: white;
+        background-color: rgb(29, 29, 29);
+        width: 50rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 5rem;
+        padding: 2rem;
+        text-align: center;
+        border: #a75c9d 5px solid;
+        border-radius: 10px;
+        box-shadow: 1px 5px 50px #a75c9d;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <section class="my-day-2050">
+      <header>
+        <a href="home.html">Home</a>
+        <a href="my_day_2050.html">My Day 2050</a>
+        <p>Future School</p>
+      </header>
+      <div class="main-head">
+        <h1>My Day In 2050</h1>
+        <p>
+          Welcome to the future — the year 2050. My mornings begin with smart
+          technology, AI assistants, and futuristic travel systems that make
+          life super fast and exciting. Come with me as I take you through a
+          normal morning in my future world.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌅 Waking Up in 2050</h3>
+        <p>
+          I don’t wake up using a boring alarm clock. Instead, my smart bed
+          gently lifts me up while the walls brighten like a sunrise. A hologram
+          named 'AURA' appears beside me and tells me my schedule, my health
+          report, and the weather in the sky roads.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🪞 Smart Hologram Mirror</h3>
+        <p>
+          When I stand in front of my mirror, it becomes a hologram that shows
+          my outfit options, checks my hydration, and even gives me a glowing
+          neon hairstyle preview. I can swipe in the air to change looks.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🤖 Breakfast Made by My Robo-Chef</h3>
+        <p>
+          In the kitchen, my robotic chef prepares my breakfast automatically.
+          It scans my mood and gives me the perfect meal. The plates float to me
+          on tiny hover-discs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Sky Travel to School</h3>
+        <p>
+          When it’s time to leave, my flying car glides down to my window. The
+          doors open upwards like wings. As I sit inside, the seats adjust
+          themselves and the car enters the neon blue sky lanes. Drones guide
+          the traffic, and screens inside the car show floating hologram maps.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
